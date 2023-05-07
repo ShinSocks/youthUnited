@@ -9,7 +9,9 @@ body {
 
 }
 
-@media (min-width: 715px) {
+
+
+@media (min-width: 975px) {
 
 #header {
     top: 0;
@@ -20,7 +22,6 @@ body {
     z-index: 50;
     overflow:hidden;
     box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-    
     transition-duration: 300ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     display:flex;
@@ -69,15 +70,27 @@ body {
     margin-top:20px;
 }
 
+#pageHead {
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    align-items: center;
+    height: 15cm;
+    padding-top:1.5cm;
+}
+
 #headLeft {
     width:50%
 }
 
+
+
 #headLeftContent {
-    font-size:4vh;
+    font-size:.75cm;
     padding-left:10vw;
     padding-right:5vw;
 }
+
 
 #headContentSub {
     font-size: 20px;
@@ -93,7 +106,7 @@ body {
 
 .socials {
     border: 1px solid black;
-    width:30%;
+    width:4cm;
     height:1cm;
     font-size:20px;
     padding:auto;
@@ -122,8 +135,8 @@ body {
 }
 
 #openImg {
-    width:70vh;
-    height:70vh;
+    width:12cm;
+    height:12cm;
     background-size: cover;
     background-position: center;
 }
@@ -132,14 +145,6 @@ body {
     width:100%;
     
 }
-#pageHead {
-    display: flex;
-    justify-content: space-between;
-    width:100%;
-    align-items: center;
-    height: 92vh;
-    margin-top:1.5cm;
-}
 
 
 
@@ -147,7 +152,7 @@ body {
     background-color: #293241;
     padding-left:10vw;
     padding-right:10vw;
-    padding-bottom:5cm;
+    padding-bottom:2cm;
 }
 
 #howJoin {
@@ -161,6 +166,10 @@ body {
     justify-content: space-between;
 }
 
+.waveContainer {
+    margin-top:.5cm;
+}
+
 .howInfoBullet {
     color:#e0fbfc;
     width:20vw;
@@ -172,22 +181,11 @@ body {
     color: #ee6c4d;
 }
 
-#howImgDiv {
-    margin-top:2cm;
-    display:flex;
-    justify-content: space-between;
-    padding-left:10vw;
-    padding-right:10vw;
-}
-
-.howImg {
-    width:25vw;
-}
-
-.img {
-    width:100%;
-    background-size: cover;
-    background-position: center;
+#footer {
+    padding-top: 20px;
+    padding-bottom:20px;
+    align-items: center;
+    text-align: center;
 }
 
 }
