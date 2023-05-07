@@ -172,22 +172,25 @@ body {
     color: #ee6c4d;
 }
 
-#howImgDiv {
-    margin-top:2cm;
-    display:flex;
-    justify-content: space-between;
-    padding-left:10vw;
-    padding-right:10vw;
+#appForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1cm;
+    width: 80%;
+    text-align: center;
+    border: white 1px solid;
+    margin: auto;
+    margin-top: 2cm;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: white;
+    cursor: pointer;
 }
 
-.howImg {
-    width:25vw;
-}
-
-.img {
-    width:100%;
-    background-size: cover;
-    background-position: center;
+#appForm:hover {
+    background-color:transparent;
+    color:white;
 }
 
 }
