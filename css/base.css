@@ -73,7 +73,9 @@ body {
     text-align: center;
     background-color: #293241;
     color:white;
-    border-top:2px solid white;
+    border-top:2px solid #ee6c4d;
+    width:100%;
+    bottom: 0;
     
 }
 

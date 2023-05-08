@@ -11,7 +11,7 @@
     justify-content: space-between;
     width:100%;
     align-items: center;
-    min-height: 92vh;
+    min-height: 75vh;
     padding-top:1.5cm;
 }
 
@@ -103,7 +103,7 @@
 }
 
 .waveContainer {
-    margin-top:.5cm;
+   
 }
 
 .howInfoBullet {
@@ -137,6 +137,7 @@
 #appForm:hover {
     background-color:transparent;
     color:white;
+    border: white 1px solid;
 }
 
 

@@ -1,0 +1,78 @@
+#openImg {
+    margin-top:2.3cm;
+    min-height:92vh;
+    width:100%;
+
+    
+    background: linear-gradient(rgba(245,245,245,.1), rgba(20,20,20,1)), url("../assets/team.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    padding-top:2cm;
+    align-items: center;
+    color:white;
+   padding-bottom:1cm;
+}
+h1 {
+    margin-top:0;
+    color:white;
+    font-size: 1.3cm;
+}
+
+#outside {
+   
+}
+
+.slider {
+    width:800px;
+    height:500px;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    overflow:hidden;
+}
+
+.slides {
+    width:500%;
+    height:500px;
+    display:flex;
+}
+
+.slides input {
+    display:none;
+}
+
+.slide {
+    width:20%;
+    transition:2s;
+}
+
+.slide img{
+    width:800px;
+    height:500px;
+}
+
+.navigation-manual{
+    position:absolute;
+    width:800px;
+    margin-top: -40px;
+    display:flex;
+    justify-content: center;
+
+}
+
+.manualButton {
+    border:1px solid black;
+    padding:5px;
+    border-radius: 10px;
+    cursor:pointer;
+    transition:1s;
+}
+
+#but {
+    margin-top:1cm;
+    
+}
